@@ -15,8 +15,6 @@ public class JoinScratchTest {
 
 
     static public void verifyJoinScratch() {
-//        System.setProperty("webdriver.chrome.driver", "C:\\WebDrivers\\chromedriver.exe");
-
         SetCromeDriver set = new SetCromeDriver();
 
         String key = "webdriver.chrome.driver";
@@ -43,7 +41,7 @@ public class JoinScratchTest {
             //----------------1-st Form declaration---------------
 
             reg.getUserName();
-            reg.setUserName("DemoAutomationTest6");
+            reg.setUserName("DemoAutomationTest15");
 
             reg.setPassword("123456789");
             reg.setPasswordConfirm("123456789");

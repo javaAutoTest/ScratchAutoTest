@@ -38,7 +38,7 @@ public class LoginTest {
 
             //----------------Login Form declaration---------------
 
-            logIn.userName("DemoAutomationTest10");
+            logIn.userName("DemoAutomationTest15");
             logIn.setPassword("123456789");
 
             Thread.sleep(1000);
