@@ -40,7 +40,6 @@ public class LoginPage {
         btnLogin = driver.findElement(By.xpath("//*[@id=\"navigation\"]/div/ul/li[8]/div/div/form/div[3]/button"));
 
     }
-
     public void btnLoginClick(){
         btnLogin.submit();
         System.out.println("btn");

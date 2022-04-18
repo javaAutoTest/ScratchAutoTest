@@ -1,4 +1,4 @@
-package Scratch.RegistrationPage;
+//package Scratch.RegistrationPage;
 
 /**
  * Automation Test case for scratch.mit.edu.com
@@ -6,6 +6,6 @@ package Scratch.RegistrationPage;
  */
 public class JoinScratchMain {
     public static void main(String[] args) {
-        JoinScratchTest.verifyJoinScratch();
+        Scratch.RegistrationPage.JoinScratchTest.verifyJoinScratch();
     }
 }
